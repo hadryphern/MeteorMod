@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "meteors:block/protected_land_tester_active"
+  }
+}

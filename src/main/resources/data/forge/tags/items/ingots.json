@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/meteorite",
+    "#forge:ingots/frozen_iron",
+    "#forge:ingots/kreknorite"
+  ]
+}

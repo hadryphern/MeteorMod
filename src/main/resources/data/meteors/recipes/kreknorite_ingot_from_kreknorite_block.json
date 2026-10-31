@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "meteors:kreknorite_block"
+    }
+  ],
+  "result": {
+    "item": "meteors:kreknorite_ingot",
+    "count": 9
+  }
+}

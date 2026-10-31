@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    "ccc",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "item": "meteors:kreknorite_ingot"
+    }
+  },
+  "result": {
+    "item": "meteors:kreknorite_chestplate",
+    "count": 1
+  }
+}

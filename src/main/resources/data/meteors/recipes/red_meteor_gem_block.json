@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "meteors:red_meteor_gem"
+    }
+  },
+  "result": {
+    "item": "meteors:red_meteor_gem_block",
+    "count": 1
+  }
+}

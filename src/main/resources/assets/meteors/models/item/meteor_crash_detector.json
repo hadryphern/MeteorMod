@@ -1,0 +1,200 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "meteors:item/meteor_crash_detector_00"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "meteors:angle": 0.0
+      },
+      "model": "meteors:item/meteor_crash_detector_00"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.03125
+      },
+      "model": "meteors:item/meteor_crash_detector_01"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.0625
+      },
+      "model": "meteors:item/meteor_crash_detector_02"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.09375
+      },
+      "model": "meteors:item/meteor_crash_detector_03"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.125
+      },
+      "model": "meteors:item/meteor_crash_detector_04"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.15625
+      },
+      "model": "meteors:item/meteor_crash_detector_05"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.1875
+      },
+      "model": "meteors:item/meteor_crash_detector_06"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.21875
+      },
+      "model": "meteors:item/meteor_crash_detector_07"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.25
+      },
+      "model": "meteors:item/meteor_crash_detector_08"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.28125
+      },
+      "model": "meteors:item/meteor_crash_detector_09"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.3125
+      },
+      "model": "meteors:item/meteor_crash_detector_10"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.34375
+      },
+      "model": "meteors:item/meteor_crash_detector_11"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.375
+      },
+      "model": "meteors:item/meteor_crash_detector_12"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.40625
+      },
+      "model": "meteors:item/meteor_crash_detector_13"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.4375
+      },
+      "model": "meteors:item/meteor_crash_detector_14"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.46875
+      },
+      "model": "meteors:item/meteor_crash_detector_15"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.5
+      },
+      "model": "meteors:item/meteor_crash_detector_16"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.53125
+      },
+      "model": "meteors:item/meteor_crash_detector_17"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.5625
+      },
+      "model": "meteors:item/meteor_crash_detector_18"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.59375
+      },
+      "model": "meteors:item/meteor_crash_detector_19"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.625
+      },
+      "model": "meteors:item/meteor_crash_detector_20"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.65625
+      },
+      "model": "meteors:item/meteor_crash_detector_21"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.6875
+      },
+      "model": "meteors:item/meteor_crash_detector_22"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.71875
+      },
+      "model": "meteors:item/meteor_crash_detector_23"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.75
+      },
+      "model": "meteors:item/meteor_crash_detector_24"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.78125
+      },
+      "model": "meteors:item/meteor_crash_detector_25"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.8125
+      },
+      "model": "meteors:item/meteor_crash_detector_26"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.84375
+      },
+      "model": "meteors:item/meteor_crash_detector_27"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.875
+      },
+      "model": "meteors:item/meteor_crash_detector_28"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.90625
+      },
+      "model": "meteors:item/meteor_crash_detector_29"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.9375
+      },
+      "model": "meteors:item/meteor_crash_detector_30"
+    },
+    {
+      "predicate": {
+        "meteors:angle": 0.96875
+      },
+      "model": "meteors:item/meteor_crash_detector_31"
+    }
+  ]
+}

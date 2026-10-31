@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c"
+  ],
+  "key": {
+    "c": {
+      "item": "meteors:kreknorite_ingot"
+    }
+  },
+  "result": {
+    "item": "meteors:kreknorite_helmet",
+    "count": 1
+  }
+}

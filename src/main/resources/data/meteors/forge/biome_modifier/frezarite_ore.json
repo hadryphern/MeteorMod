@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#meteors:has_frezarite_ore",
+  "features": "meteors:frezarite_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:kitty_comet_summoner"
+    },
+    "title": {
+      "translate": "advancements.meteors.comet_kitty_event.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.comet_kitty_event.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "comet_kitty_event": {
+      "trigger": "meteors:event",
+      "conditions": {
+        "event": "comet_kitty_event"
+      }
+    }
+  },
+  "parent": "meteors:crafted_meteor_timer"
+}

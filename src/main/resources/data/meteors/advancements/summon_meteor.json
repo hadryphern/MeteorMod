@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:meteor_summoner"
+    },
+    "title": {
+      "translate": "advancements.meteors.summon_meteor.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.summon_meteor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "summon_meteor": {
+      "trigger": "meteors:event",
+      "conditions": {
+        "event": "summon_meteor"
+      }
+    }
+  },
+  "parent": "meteors:meteor_manipulator"
+}

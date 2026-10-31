@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mbm",
+    "bsb",
+    "mbm"
+  ],
+  "key": {
+    "m": {
+      "item": "meteors:kreknorite_ingot"
+    },
+    "s": {
+      "item": "meteors:meteor_summoner"
+    },
+    "b": {
+      "item": "meteors:kreknorite_block"
+    }
+  },
+  "result": {
+    "item": "meteors:kreknorite_meteor_summoner",
+    "count": 1
+  }
+}

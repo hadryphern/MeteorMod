@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mfk",
+    "brb"
+  ],
+  "key": {
+    "m": {
+      "item": "meteors:meteorite_ingot"
+    },
+    "f": {
+      "item": "meteors:frozen_iron"
+    },
+    "k": {
+      "item": "meteors:kreknorite_ingot"
+    },
+    "b": {
+      "item": "meteors:meteorite_block"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "meteors:meteor_timer",
+    "count": 1
+  }
+}

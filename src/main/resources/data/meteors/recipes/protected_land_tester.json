@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "m",
+    "s"
+  ],
+  "key": {
+    "m": {
+      "item": "meteors:meteor_chips"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "meteors:protected_land_tester",
+    "count": 4
+  }
+}

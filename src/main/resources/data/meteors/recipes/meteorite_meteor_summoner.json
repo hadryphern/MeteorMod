@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mbm",
+    "bsb",
+    "mbm"
+  ],
+  "key": {
+    "m": {
+      "item": "meteors:meteorite_ingot"
+    },
+    "s": {
+      "item": "meteors:meteor_summoner"
+    },
+    "b": {
+      "item": "meteors:meteorite_block"
+    }
+  },
+  "result": {
+    "item": "meteors:meteorite_meteor_summoner",
+    "count": 1
+  }
+}

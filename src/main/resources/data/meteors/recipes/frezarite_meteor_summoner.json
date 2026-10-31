@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mbm",
+    "bsb",
+    "mbm"
+  ],
+  "key": {
+    "m": {
+      "item": "meteors:frozen_iron"
+    },
+    "s": {
+      "item": "meteors:meteor_summoner"
+    },
+    "b": {
+      "item": "meteors:frozen_iron_block"
+    }
+  },
+  "result": {
+    "item": "meteors:frezarite_meteor_summoner",
+    "count": 1
+  }
+}

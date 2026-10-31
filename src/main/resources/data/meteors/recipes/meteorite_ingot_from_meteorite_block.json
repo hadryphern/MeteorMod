@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "meteors:meteorite_block"
+    }
+  ],
+  "result": {
+    "item": "meteors:meteorite_ingot",
+    "count": 9
+  }
+}

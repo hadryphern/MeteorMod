@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "meteors:kreknorite_ingot"
+    }
+  },
+  "result": {
+    "item": "meteors:kreknorite_block",
+    "count": 1
+  }
+}

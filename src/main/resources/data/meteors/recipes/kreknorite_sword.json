@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c",
+    "c",
+    "s"
+  ],
+  "key": {
+    "c": {
+      "item": "meteors:kreknorite_ingot"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "meteors:kreknorite_sword",
+    "count": 1
+  }
+}

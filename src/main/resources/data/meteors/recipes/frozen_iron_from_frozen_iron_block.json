@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "meteors:frozen_iron_block"
+    }
+  ],
+  "result": {
+    "item": "meteors:frozen_iron",
+    "count": 9
+  }
+}

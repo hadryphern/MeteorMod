@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:meteor_proximity_detector"
+    },
+    "title": {
+      "translate": "advancements.meteors.crafted_detector.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.crafted_detector.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "meteors:meteor_proximity_detector",
+              "meteors:meteor_time_detector",
+              "meteors:meteor_crash_detector"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "meteors:material_gather"
+}

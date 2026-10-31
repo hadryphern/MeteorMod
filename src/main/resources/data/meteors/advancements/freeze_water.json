@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "title": {
+      "translate": "advancements.meteors.freeze_water.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.freeze_water.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "freeze_water": {
+      "trigger": "meteors:event",
+      "conditions": {
+        "event": "freeze_water"
+      }
+    }
+  },
+  "parent": "meteors:freezer_crafted"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " m ",
+    "mrm",
+    " m "
+  ],
+  "key": {
+    "m": {
+      "item": "meteors:meteorite_ingot"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "meteors:meteor_proximity_detector",
+    "count": 1
+  }
+}

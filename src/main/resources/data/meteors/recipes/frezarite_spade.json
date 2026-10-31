@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c",
+    "s",
+    "s"
+  ],
+  "key": {
+    "c": {
+      "item": "meteors:frozen_iron"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "meteors:frezarite_spade",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "meteors:meteor_ore",
+    "meteors:meteor",
+    "meteors:rare_meteor",
+    "meteors:meteor_shield",
+    "meteors:frezarite",
+    "meteors:kreknorite",
+    "meteors:red_meteor_gem_block",
+    "meteors:meteorite_block",
+    "meteors:frozen_iron_block",
+    "meteors:kreknorite_block",
+    "meteors:freezer",
+    "meteors:frezarite_ore",
+    "meteors:slippery_block",
+    "meteors:slippery_block_two",
+    "meteors:slippery_block_three",
+    "meteors:slippery_block_four",
+    "meteors:slippery_stairs",
+    "meteors:slippery_stairs_two",
+    "meteors:slippery_stairs_three",
+    "meteors:slippery_stairs_four"
+  ]
+}

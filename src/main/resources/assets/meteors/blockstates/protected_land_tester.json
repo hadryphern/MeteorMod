@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=true": {
+      "model": "meteors:block/protected_land_tester_active"
+    },
+    "active=false": {
+      "model": "meteors:block/protected_land_tester"
+    }
+  }
+}

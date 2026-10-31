@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:storage_blocks/meteorite",
+    "#forge:storage_blocks/frezarite",
+    "#forge:storage_blocks/kreknorite",
+    "#forge:storage_blocks/red_meteor_gem"
+  ]
+}

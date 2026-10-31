@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:protected_land_tester"
+    },
+    "title": {
+      "translate": "advancements.meteors.meteor_blocked.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.meteor_blocked.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteor_blocked": {
+      "trigger": "meteors:event",
+      "conditions": {
+        "event": "meteor_blocked"
+      }
+    }
+  },
+  "parent": "meteors:shield_crafted"
+}

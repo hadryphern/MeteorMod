@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:red_meteor_gem"
+    },
+    "title": {
+      "translate": "advancements.meteors.shield_fully_upgraded.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.shield_fully_upgraded.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shield_fully_upgraded": {
+      "trigger": "meteors:event",
+      "conditions": {
+        "event": "shield_fully_upgraded"
+      }
+    }
+  },
+  "parent": "meteors:meteor_manipulator"
+}

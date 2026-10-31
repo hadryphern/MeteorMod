@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rmr",
+    "ksk",
+    "rfr"
+  ],
+  "key": {
+    "m": {
+      "item": "meteors:meteorite_block"
+    },
+    "s": {
+      "item": "meteors:meteor_summoner"
+    },
+    "k": {
+      "item": "meteors:kreknorite_block"
+    },
+    "f": {
+      "item": "meteors:frozen_iron_block"
+    },
+    "r": {
+      "item": "meteors:red_meteor_gem"
+    }
+  },
+  "result": {
+    "item": "meteors:unknown_meteor_summoner",
+    "count": 1
+  }
+}

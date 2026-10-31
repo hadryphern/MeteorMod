@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "meteors:meteor_chips"
+  },
+  "result": "meteors:meteorite_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

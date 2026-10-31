@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ifi",
+    "fbf",
+    "ifi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "f": {
+      "item": "meteors:frezarite_crystal"
+    },
+    "b": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "meteors:freezer",
+    "count": 1
+  }
+}

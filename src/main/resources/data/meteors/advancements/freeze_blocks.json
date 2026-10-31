@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:slippery_block"
+    },
+    "title": {
+      "translate": "advancements.meteors.freeze_blocks.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.freeze_blocks.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "freeze_blocks": {
+      "trigger": "meteors:event",
+      "conditions": {
+        "event": "freeze_blocks"
+      }
+    }
+  },
+  "parent": "meteors:freezer_crafted"
+}

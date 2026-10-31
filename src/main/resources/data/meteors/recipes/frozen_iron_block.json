@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "meteors:frozen_iron"
+    }
+  },
+  "result": {
+    "item": "meteors:frozen_iron_block",
+    "count": 1
+  }
+}

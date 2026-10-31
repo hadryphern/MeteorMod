@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "meteors:block/freezer_side",
+    "front": "meteors:block/freezer_front_on",
+    "side": "meteors:block/freezer_side"
+  }
+}

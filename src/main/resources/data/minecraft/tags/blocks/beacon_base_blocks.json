@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "meteors:red_meteor_gem_block",
+    "meteors:meteorite_block",
+    "meteors:frozen_iron_block",
+    "meteors:kreknorite_block"
+  ]
+}

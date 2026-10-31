@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:meteor"
+    },
+    "title": {
+      "translate": "advancements.meteors.found_meteor.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.found_meteor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "found_meteor": {
+      "trigger": "meteors:event",
+      "conditions": {
+        "event": "found_meteor"
+      }
+    }
+  },
+  "parent": "meteors:crafted_detector"
+}

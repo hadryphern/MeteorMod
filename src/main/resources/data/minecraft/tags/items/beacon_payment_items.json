@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "meteors:meteorite_ingot",
+    "meteors:frozen_iron",
+    "meteors:kreknorite_ingot"
+  ]
+}

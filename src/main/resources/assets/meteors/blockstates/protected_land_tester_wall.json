@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "active=true,facing=east": {
+      "model": "meteors:block/protected_land_tester_active_wall"
+    },
+    "active=false,facing=east": {
+      "model": "meteors:block/protected_land_tester_wall"
+    },
+    "active=true,facing=south": {
+      "model": "meteors:block/protected_land_tester_active_wall",
+      "y": 90
+    },
+    "active=false,facing=south": {
+      "model": "meteors:block/protected_land_tester_wall",
+      "y": 90
+    },
+    "active=true,facing=west": {
+      "model": "meteors:block/protected_land_tester_active_wall",
+      "y": 180
+    },
+    "active=false,facing=west": {
+      "model": "meteors:block/protected_land_tester_wall",
+      "y": 180
+    },
+    "active=true,facing=north": {
+      "model": "meteors:block/protected_land_tester_active_wall",
+      "y": 270
+    },
+    "active=false,facing=north": {
+      "model": "meteors:block/protected_land_tester_wall",
+      "y": 270
+    }
+  }
+}

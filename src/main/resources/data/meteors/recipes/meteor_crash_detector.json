@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " k ",
+    "krk",
+    " k "
+  ],
+  "key": {
+    "k": {
+      "item": "meteors:kreknorite_ingot"
+    },
+    "r": {
+      "item": "meteors:red_meteor_gem"
+    }
+  },
+  "result": {
+    "item": "meteors:meteor_crash_detector",
+    "count": 1
+  }
+}

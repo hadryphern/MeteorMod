@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "meteors:red_meteor_gem"
+    },
+    "title": {
+      "translate": "advancements.meteors.meteor_manipulator.title"
+    },
+    "description": {
+      "translate": "advancements.meteors.meteor_manipulator.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "meteors:red_meteor_gem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "meteors:material_gather"
+}
