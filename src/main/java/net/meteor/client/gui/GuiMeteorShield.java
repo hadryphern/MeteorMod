@@ -20,7 +20,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class GuiMeteorShield extends AbstractContainerScreen<ContainerMeteorShield> {
 
-	private static final ResourceLocation shieldGuiTexture = ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/gui/container/meteor_shield.png");
+	private static final ResourceLocation shieldGuiTexture = new ResourceLocation(MeteorsMod.MOD_ID, "textures/gui/container/meteor_shield.png");
 
 	private final TileEntityMeteorShield shield;
 	private Button cometButton;

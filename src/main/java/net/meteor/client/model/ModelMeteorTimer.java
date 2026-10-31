@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 /** The Meteor Timer: a half slab with a meteorite, frezarite and kreknorite element floating above it. */
 public class ModelMeteorTimer {
 
-	public static final ModelLayerLocation LAYER = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "meteor_timer"), "main");
+	public static final ModelLayerLocation LAYER = new ModelLayerLocation(new ResourceLocation(MeteorsMod.MOD_ID, "meteor_timer"), "main");
 
 	public final ModelPart Shape1;
 	public final ModelPart base;

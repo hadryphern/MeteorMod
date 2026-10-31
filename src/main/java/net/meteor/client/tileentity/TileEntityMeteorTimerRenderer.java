@@ -24,7 +24,7 @@ import net.minecraft.world.phys.Vec3;
 
 public class TileEntityMeteorTimerRenderer implements BlockEntityRenderer<TileEntityMeteorTimer> {
 
-	public static final ResourceLocation timerTex = ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/meteor_timer.png");
+	public static final ResourceLocation timerTex = new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/meteor_timer.png");
 
 	// The elements started at a random angle; 1.7.10 then turned them a bit every frame
 	private static final float[] START_ANGLES;

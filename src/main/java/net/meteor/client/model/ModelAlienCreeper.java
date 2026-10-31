@@ -13,8 +13,8 @@ import net.minecraft.resources.ResourceLocation;
 /** A creeper with an antenna on its head. Used with the vanilla CreeperModel. */
 public class ModelAlienCreeper
 {
-	public static final ModelLayerLocation LAYER = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "alien_creeper"), "main");
-	public static final ModelLayerLocation ARMOR_LAYER = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "alien_creeper"), "armor");
+	public static final ModelLayerLocation LAYER = new ModelLayerLocation(new ResourceLocation(MeteorsMod.MOD_ID, "alien_creeper"), "main");
+	public static final ModelLayerLocation ARMOR_LAYER = new ModelLayerLocation(new ResourceLocation(MeteorsMod.MOD_ID, "alien_creeper"), "armor");
 
 	public static LayerDefinition createLayer(CubeDeformation f) {
 		MeshDefinition mesh = new MeshDefinition();

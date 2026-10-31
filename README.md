@@ -1,28 +1,61 @@
-# Falling Meteors — Minecraft 1.20.1 (Forge)
+# Falling Meteors Mod
 
-A port of **Falling Meteors** by **AlexDGr8r** ([original source](https://github.com/AlexDGr8r/MeteorsMod), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/falling-meteors-mod)) from Minecraft 1.7.10 (v2.14.3) to Minecraft **1.20.1 / Forge 47.4+**, made with the original author's permission.
+![Falling Meteors Mod](docs/images/banner.jpg)
 
-The goal is the original mod, unchanged: same meteors, crash behaviour, items, numbers, textures, sounds and translations.
+**Falling Meteors, continued for modern Minecraft by [blueDev](https://www.curseforge.com/members/bluedev/projects).**
+The original mod was made by **AlexDGr8r** and stopped at Minecraft 1.7.10. This is its continuation, made with the original author's blessing, starting with **Forge 1.20.1**.
 
-> **Credits.** Falling Meteors and all its art, sounds and design belong to AlexDGr8r (textures also by Firecat1311 and SLuRsniper24). The original mod is *All Rights Reserved*.
+![A meteor crash site](docs/images/meteor-crash.png)
 
-## What's in it
+The Falling Meteors mod adds 5 different types of meteors that fall naturally down upon your world. Within the remains of these meteors holds incredibly powerful ores that can be used to create different tools, armor, and weapons with their own special abilities. Befriend a Comet Kitty, summon a meteor, magnetically attract items, and much more!
 
-- **Meteors** enter orbit at night near a random player and crash after a while. There are five types: Meteorite, Frezarite, Kreknorite, Unknown (a loot chest wrapped in meteorite) and the rare Kitty meteor shower.
-  - A size 1–3 explosion leaves a crater lined with hot ore that cools over time; touching hot ore sets you on fire.
-  - Alien Creepers come with Meteorite crashes, snow with Frezarite crashes, and Blazes with Kreknorite crashes. Big Kreknorite meteors build a Nether portal shrine.
-  - Comets fall as well, and leave a few blocks of their material.
-- **Meteor Shield**: charge it with a Meteor Chip and upgrade it with up to four Red Meteor Gems (64 blocks of range per level). It destroys incoming meteors and collects their materials, can block comets, and reports comets entering orbit.
-- **Protected Land Tester**: lights up inside a protected area and tells you who owns it.
-- **Detectors** (Proximity, Time, Crash): needles that point to incoming meteors and to the last crash zone.
-- **Meteor Timer**: a redstone signal that grows as the next meteor gets closer (Power Mode / Quick Mode).
-- **Freezer**: a machine with a 10-bucket fluid tank and four recipe modes. It makes ice, packed ice, obsidian, Frozen Iron and **Slippery Blocks** (four levels, made from almost any block or stairs).
-- **Gear**:
-  - Meteorite gear has Magnetization, which pulls items to you.
-  - Frezarite gear: the tools work faster underwater, the sword slows enemies, the hoe makes pre-watered farmland, and the armor's Cold Touch freezes water as you walk.
-  - Kreknorite: the full armor set makes you fire-immune, and the Flame Sword has Fire Aspect II.
-- **Mobs**: the Alien Creeper (charged and fireproof) and the Comet Kitty (a tameable, fireproof cat in a space helmet).
-- Meteor Summoners, ice cream, storage blocks, ores in world generation, 17 advancements (the old achievements) and 8 languages.
+## Key Features
+
+- Meteors Fall Randomly
+- Tools, armor, and weapons created from the meteors' remains
+- New Entities: Alien Creeper, Comet Kitty
+- Protect your land from Meteors with a Meteor Shield that can be upgraded to cover more land
+- Summon Meteors with the summoners
+- Track Meteors with the Detectors and Timer Block
+- Magnetically attract items with Meteorite Tools and Armor
+- Walk on and control the water with Frezarite Tools and Armor
+- Be completely immune to fire with Kreknorite Armor and Sword
+
+![Comet Kitties](docs/images/comet-kitty.png)
+
+## Downloads
+
+Every file is on the [Releases](https://github.com/hadryphern/MeteorMod/releases) page. Releases are named by mod loader, then Minecraft version.
+
+| Loader | Minecraft | Status |
+|---|---|---|
+| **Forge** | 1.20.1 | [Download](https://github.com/hadryphern/MeteorMod/releases/tag/forge-1.20.1-v2.15.0) (requires Forge 47) |
+| **Fabric** | — | Coming later |
+
+To install, put the `.jar` in your `mods` folder. It's needed on the server and on every client.
+
+## More Information
+
+- [Official Forum Thread](http://www.minecraftforum.net/topic/989113-164sspsmpfalling-meteors-modv2112/)
+- [Official Wiki](http://fallingmeteorsmod.wikia.com/wiki/Falling_Meteors_Mod_Wiki)
+- [Github Repository](https://github.com/AlexDGr8r/MeteorsMod) (original 1.7.10 source)
+- [Original CurseForge page](https://www.curseforge.com/minecraft/mc-mods/falling-meteors-mod)
+
+## Credits
+
+**Original creators.** All credit for the mod, its ideas, art and sounds goes to them:
+
+- **AlexDGr8r**: creator of Falling Meteors (code and textures)
+  - [CurseForge](https://www.curseforge.com/members/alexdgr8r)
+  - [GitHub](https://github.com/AlexDGr8r)
+  - Original project: [Falling Meteors on CurseForge](https://www.curseforge.com/minecraft/mc-mods/falling-meteors-mod) (you can support AlexDGr8r with the donate button there)
+- **Firecat1311** and **SLuRsniper24**: additional textures
+
+**Continuation for modern Minecraft:**
+
+- **blueDev**: 1.20.1 version and future versions
+  - [CurseForge projects](https://www.curseforge.com/members/bluedev/projects)
+  - [GitHub](https://github.com/hadryphern)
 
 ## Commands (op level 2)
 
@@ -38,39 +71,38 @@ Game rules: `meteorsFall`, `summonMeteors`.
 
 ## Configuration
 
-`<world>/serverconfig/meteors-server.toml` holds every option of the original config, including fall radius, meteor types, sizes, shield radius, explosion size, deterrence and whitelisted dimensions (`minecraft:overworld`, `minecraft:the_end`, `twilightforest:twilight_forest` by default). The server syncs it to clients.
+`<world>/serverconfig/meteors-server.toml` holds every option of the original mod, including:
 
-## Differences from 1.7.10
+- the fall radius around players
+- which meteor types are enabled
+- meteor sizes
+- the Meteor Shield radius
+- the explosion size
+- how often meteors fall (deterrence)
+- the dimensions where meteors fall
 
-These come from Minecraft itself changing, not from design choices:
+The server sends it to every client.
 
-- **Metadata became block states and separate items.** Hot or cool meteors use a `heat` state. Each Meteor Summoner and each decoration block is its own item. The Protected Land Tester has a wall variant like every torch.
-- **Ore Dictionary names became Forge tags**, for example `forge:ingots/meteorite` and `forge:ores/frezarite`.
-- **Achievements became advancements.**
-- **Ore generation is data driven.** It lives in `data/meteors/worldgen`, with the same vein count, size and heights. Frezarite ore only spawns in cold biomes.
-- **The Comet Kitty is based on the Cat**, because ocelots can't be tamed anymore.
-- **Fire immunity**: Kreknorite armor cancels fire damage, since entities can no longer be made fire immune at runtime.
-- **Cold Touch** freezes the block under your feet on the server. The 1.7.10 version froze client-side ghost blocks.
-- **Not ported**: the Baubles, Waila and Thaumcraft integrations, since those mods don't exist on 1.20.1. The Baubles-only Magnetization Controller item goes with them.
-- **Small fixes**:
-  - The Freezer drops its contents when broken.
-  - Meteors that fall into the void are removed.
-  - The Meteor Timer keeps its signal correct after a reload.
-  - A Frezarite crash no longer turns lava into packed ice.
+## What changed from 1.7.10
 
-## Building
+The gameplay is the same as the original. Some things had to change because Minecraft itself changed:
+
+- **Items and blocks:**
+  - Each Meteor Summoner and each storage block is now its own item.
+  - Hot and cooled meteor blocks are block states.
+  - Ore Dictionary names became Forge tags (`forge:ingots/meteorite`, `forge:ores/frezarite`, ...).
+- **Achievements** are now advancements.
+- **Comet Kitty:** it's based on the cat, since ocelots can no longer be tamed.
+- **Not included:** the Baubles, Waila and Thaumcraft integrations, since those mods don't exist on 1.20.1.
+
+## Building from source
 
 Requires JDK 17.
 
 ```
-./gradlew build          # jar in build/libs
+./gradlew build          # mod jar in build/libs
 ./gradlew runClient      # test client
 ./gradlew runServer      # test server
-./gradlew runClient -PquickPlay=<world>   # open a singleplayer world directly
 ```
 
----
-
-### Português
-
-Port do **Falling Meteors** (AlexDGr8r) do Minecraft 1.7.10 para o **1.20.1 Forge**, feito com a permissão do autor original, mantendo tudo igual ao original: meteoros, crateras, minérios, Meteor Shield, Freezer, detectores, Meteor Timer, armaduras e ferramentas, Alien Creeper, Comet Kitty, comandos, conquistas (agora *advancements*) e as 8 traduções.
+Falling Meteors and its assets belong to their original creators and are used with permission.

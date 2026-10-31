@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 /** A size 1 meteor is a single cube, size 2 is eight cubes and size 3 adds six more around them. */
 public class ModelMeteor
 {
-	public static final ModelLayerLocation LAYER = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "meteor"), "main");
+	public static final ModelLayerLocation LAYER = new ModelLayerLocation(new ResourceLocation(MeteorsMod.MOD_ID, "meteor"), "main");
 
 	private static final float[][] BLOCK_PIVOTS = {
 		{8F, 16F, 8F}, {8F, 0F, 8F}, {-8F, 0F, -8F}, {8F, 0F, -8F}, {-8F, 16F, -8F}, {8F, 16F, -8F}, {-8F, 0F, 8F},

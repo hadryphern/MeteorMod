@@ -45,7 +45,7 @@ public class MeteorTriggers {
 
 	public static class EventTrigger extends SimpleCriterionTrigger<EventTrigger.Instance> {
 
-		private static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "event");
+		private static final ResourceLocation ID = new ResourceLocation(MeteorsMod.MOD_ID, "event");
 
 		@Override
 		public ResourceLocation getId() {

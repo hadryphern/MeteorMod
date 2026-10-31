@@ -58,7 +58,7 @@ public class ClientProxy
 
 		private static void registerDetector(Item item) {
 			int type = ((ItemDetector) item).getDetectorType();
-			ItemProperties.register(item, ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "angle"), (stack, level, entity, seed) -> TextureDetector.getAngle(type));
+			ItemProperties.register(item, new ResourceLocation(MeteorsMod.MOD_ID, "angle"), (stack, level, entity, seed) -> TextureDetector.getAngle(type));
 		}
 
 		@SubscribeEvent

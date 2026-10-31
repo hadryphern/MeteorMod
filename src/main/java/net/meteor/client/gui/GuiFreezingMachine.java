@@ -21,7 +21,7 @@ import net.minecraftforge.fluids.FluidStack;
 
 public class GuiFreezingMachine extends AbstractContainerScreen<ContainerFreezingMachine> {
 
-	public static final ResourceLocation freezingMachineTextures = ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/gui/container/freezing_machine.png");
+	public static final ResourceLocation freezingMachineTextures = new ResourceLocation(MeteorsMod.MOD_ID, "textures/gui/container/freezing_machine.png");
 
 	public GuiFreezingMachine(ContainerFreezingMachine container, Inventory playerInv, Component title) {
 		super(container, playerInv, title);

@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceLocation;
  */
 public class ModelCometKitty
 {
-	public static final ModelLayerLocation LAYER = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "comet_kitty"), "main");
+	public static final ModelLayerLocation LAYER = new ModelLayerLocation(new ResourceLocation(MeteorsMod.MOD_ID, "comet_kitty"), "main");
 
 	public static LayerDefinition createLayer() {
 		MeshDefinition mesh = OcelotModel.createBodyMesh(CubeDeformation.NONE);

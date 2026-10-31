@@ -17,7 +17,7 @@ public class MeteorSounds {
 	public static final RegistryObject<SoundEvent> SHIELD_HUMM 		= register("shield.humm");
 
 	private static RegistryObject<SoundEvent> register(String name) {
-		return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, name)));
+		return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(MeteorsMod.MOD_ID, name)));
 	}
 
 }

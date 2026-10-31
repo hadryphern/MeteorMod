@@ -18,7 +18,7 @@ import net.minecraft.util.Mth;
 /** Swells and flashes like a creeper, and always has the charged swirl. */
 public class RenderAlienCreeper extends MobRenderer<EntityAlienCreeper, CreeperModel<EntityAlienCreeper>> {
 
-	private static final ResourceLocation skin = ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/alien_creeper.png");
+	private static final ResourceLocation skin = new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/alien_creeper.png");
 
 	public RenderAlienCreeper(EntityRendererProvider.Context context)
 	{
@@ -53,7 +53,7 @@ public class RenderAlienCreeper extends MobRenderer<EntityAlienCreeper, CreeperM
 
 	private static class PowerLayer extends EnergySwirlLayer<EntityAlienCreeper, CreeperModel<EntityAlienCreeper>> {
 
-		private static final ResourceLocation electricity = ResourceLocation.withDefaultNamespace("textures/entity/creeper/creeper_armor.png");
+		private static final ResourceLocation electricity = new ResourceLocation("textures/entity/creeper/creeper_armor.png");
 		private final CreeperModel<EntityAlienCreeper> creeperModel;
 
 		public PowerLayer(RenderLayerParent<EntityAlienCreeper, CreeperModel<EntityAlienCreeper>> parent, EntityModelSet models) {

@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class TileEntityMeteorShieldRenderer implements BlockEntityRenderer<TileEntityMeteorShield>
 {
-	public static final ResourceLocation shieldTexture = ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/meteor_shield.png");
+	public static final ResourceLocation shieldTexture = new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/meteor_shield.png");
 
 	private final ModelMeteorShield modelShield;
 

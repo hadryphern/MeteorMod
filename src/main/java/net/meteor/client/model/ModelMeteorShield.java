@@ -17,7 +17,7 @@ import net.minecraft.util.Mth;
 /** The Meteor Shield. The three floating layers appear, spin and bob with the shield's power level. */
 public class ModelMeteorShield
 {
-	public static final ModelLayerLocation LAYER = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "meteor_shield"), "main");
+	public static final ModelLayerLocation LAYER = new ModelLayerLocation(new ResourceLocation(MeteorsMod.MOD_ID, "meteor_shield"), "main");
 
 	private final ModelPart BaseShape;
 	private final ModelPart TopLayer;

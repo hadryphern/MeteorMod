@@ -15,7 +15,7 @@ import net.minecraft.world.level.Level;
  */
 public class MeteorDamageTypes {
 
-	public static final ResourceKey<DamageType> METEOR = ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "meteor"));
+	public static final ResourceKey<DamageType> METEOR = ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation(MeteorsMod.MOD_ID, "meteor"));
 
 	public static DamageSource meteor(Level level, Entity source) {
 		return new DamageSource(level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(METEOR), source);

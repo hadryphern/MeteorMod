@@ -14,7 +14,7 @@ public class MeteorNetwork {
 
 	private static final String PROTOCOL = "1";
 
-	public static final SimpleChannel CHANNEL = NetworkRegistry.newSimpleChannel(ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "main"),
+	public static final SimpleChannel CHANNEL = NetworkRegistry.newSimpleChannel(new ResourceLocation(MeteorsMod.MOD_ID, "main"),
 			() -> PROTOCOL, PROTOCOL::equals, PROTOCOL::equals);
 
 	public static void register() {

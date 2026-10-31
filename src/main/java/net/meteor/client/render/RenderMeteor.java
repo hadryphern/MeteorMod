@@ -21,11 +21,11 @@ public class RenderMeteor extends EntityRenderer<EntityMeteor> {
 	public static final HashMap<Integer, ResourceLocation> skins = new HashMap<Integer, ResourceLocation>();
 
 	static {
-		skins.put(0, ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/meteorite_meteor.png"));
-		skins.put(1, ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/frezarite_meteor.png"));
-		skins.put(2, ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/kreknorite_meteor.png"));
-		skins.put(3, ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/unknown_meteor.png"));
-		skins.put(4, ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/kitty_meteor.png"));
+		skins.put(0, new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/meteorite_meteor.png"));
+		skins.put(1, new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/frezarite_meteor.png"));
+		skins.put(2, new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/kreknorite_meteor.png"));
+		skins.put(3, new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/unknown_meteor.png"));
+		skins.put(4, new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/kitty_meteor.png"));
 	}
 
 	private final ModelMeteor modelMeteor;

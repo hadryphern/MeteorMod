@@ -14,7 +14,7 @@ import net.minecraft.util.Mth;
 
 public class RenderCometKitty extends MobRenderer<EntityCometKitty, CatModel<EntityCometKitty>> {
 
-	private static final ResourceLocation skin = ResourceLocation.fromNamespaceAndPath(MeteorsMod.MOD_ID, "textures/entity/comet_kitty.png");
+	private static final ResourceLocation skin = new ResourceLocation(MeteorsMod.MOD_ID, "textures/entity/comet_kitty.png");
 
 	public RenderCometKitty(EntityRendererProvider.Context context) {
 		super(context, new CatModel<EntityCometKitty>(context.bakeLayer(ModelCometKitty.LAYER)), 0.4F);

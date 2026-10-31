@@ -18,11 +18,20 @@ import net.meteor.common.MeteorTriggers;
 import net.meteor.common.climate.HandlerWorld;
 import net.meteor.common.network.MeteorNetwork;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
+/**
+ * Falling Meteors for Minecraft 1.20.1 (Forge), continued by blueDev
+ * (https://www.curseforge.com/members/bluedev/projects).
+ *
+ * Full credit to the original creators, whose mod stopped at Minecraft 1.7.10:
+ * AlexDGr8r (code and textures, https://github.com/AlexDGr8r/MeteorsMod),
+ * with textures by Firecat1311 and SLuRsniper24.
+ */
 @Mod(MeteorsMod.MOD_ID)
 public class MeteorsMod {
 
@@ -31,8 +40,10 @@ public class MeteorsMod {
 
 	public static final Logger log = LogUtils.getLogger();
 
-	public MeteorsMod(FMLJavaModLoadingContext context) {
-		IEventBus modBus = context.getModEventBus();
+	// The static context getters work on every Forge 47 release; constructor injection needs 47.4+
+	@SuppressWarnings("removal")
+	public MeteorsMod() {
+		IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
 		MeteorBlocks.BLOCKS.register(modBus);
 		MeteorItems.ITEMS.register(modBus);
 		MeteorBlockEntities.BLOCK_ENTITIES.register(modBus);
@@ -46,7 +57,7 @@ public class MeteorsMod {
 		modBus.addListener(MeteorEntities::registerAttributes);
 
 		// Server config is synced to clients, which replaces the old PacketSettings
-		context.registerConfig(ModConfig.Type.SERVER, MeteorConfig.SPEC);
+		ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, MeteorConfig.SPEC);
 		MeteorNetwork.register();
 	}
 
