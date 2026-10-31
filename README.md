@@ -1,10 +1,10 @@
 # Falling Meteors — Minecraft 1.20.1 (Forge)
 
-An unofficial port of **Falling Meteors** by **AlexDGr8r** ([original source](https://github.com/AlexDGr8r/MeteorsMod), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/falling-meteors-mod)) from Minecraft 1.7.10 (v2.14.3) to Minecraft **1.20.1 / Forge 47.4+**.
+A port of **Falling Meteors** by **AlexDGr8r** ([original source](https://github.com/AlexDGr8r/MeteorsMod), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/falling-meteors-mod)) from Minecraft 1.7.10 (v2.14.3) to Minecraft **1.20.1 / Forge 47.4+**, made with the original author's permission.
 
 The goal is the original mod, unchanged: same meteors, crash behaviour, items, numbers, textures, sounds and translations.
 
-> **License notice.** The original mod is listed as *All Rights Reserved* and its repository has no open-source license. All art, sounds and design belong to AlexDGr8r (textures also by Firecat1311 and SLuRsniper24). This port is for personal use; get the original author's permission before redistributing it.
+> **Credits.** Falling Meteors and all its art, sounds and design belong to AlexDGr8r (textures also by Firecat1311 and SLuRsniper24). The original mod is *All Rights Reserved*.
 
 ## What's in it
 
@@ -73,4 +73,4 @@ Requires JDK 17.
 
 ### Português
 
-Port não oficial do **Falling Meteors** (AlexDGr8r) do Minecraft 1.7.10 para o **1.20.1 Forge**, mantendo tudo igual ao original: meteoros, crateras, minérios, Meteor Shield, Freezer, detectores, Meteor Timer, armaduras e ferramentas, Alien Creeper, Comet Kitty, comandos, conquistas (agora *advancements*) e as 8 traduções. O mod original é *All Rights Reserved*: para publicar este port é preciso pedir permissão ao autor original.
+Port do **Falling Meteors** (AlexDGr8r) do Minecraft 1.7.10 para o **1.20.1 Forge**, feito com a permissão do autor original, mantendo tudo igual ao original: meteoros, crateras, minérios, Meteor Shield, Freezer, detectores, Meteor Timer, armaduras e ferramentas, Alien Creeper, Comet Kitty, comandos, conquistas (agora *advancements*) e as 8 traduções.
